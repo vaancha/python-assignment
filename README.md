@@ -28,4 +28,97 @@ Tasks are stored in a plain text file (`tasks.txt`). The program demonstrates ba
    ```bash
    python todo.py
 
+SAMPLE OUTPUT
+pc@LAPTOP-V38R86V8 MINGW64 /c/users/pc/downloads/lab assignment 3 comp 120 (main)
+$ python todo.py
+
+To-Do List Manager - Simple Version
+----------------------------------
+1. View tasks
+2. Add a task
+3. Remove a task
+4. Exit
+
+Choose an option (1-4): 1
+No tasks found. Your to-do list is empty.
+
+To-Do List Manager - Simple Version
+----------------------------------
+1. View tasks
+2. Add a task
+3. Remove a task
+4. Exit
+
+Choose an option (1-4): 2
+Enter the task to add: eat breakfast
+Task added: eat breakfast
+
+To-Do List Manager - Simple Version
+----------------------------------
+1. View tasks
+2. Add a task
+3. Remove a task
+4. Exit
+
+Choose an option (1-4): 2
+Enter the task to add: go to classes
+Task added: go to classes
+
+To-Do List Manager - Simple Version
+----------------------------------
+1. View tasks
+2. Add a task
+3. Remove a task
+4. Exit
+
+Choose an option (1-4): 1
+
+Your Tasks:
+1. eat breakfast
+2. go to classes
+
+
+To-Do List Manager - Simple Version
+----------------------------------
+1. View tasks
+2. Add a task
+3. Remove a task
+4. Exit
+
+Choose an option (1-4): 3
+
+Your Tasks:
+1. eat breakfast
+2. go to classes
+
+Enter the task number to remove: 1
+Removed task: eat breakfast
+
+To-Do List Manager - Simple Version
+----------------------------------
+1. View tasks
+2. Add a task
+3. Remove a task
+4. Exit
+
+Choose an option (1-4): 1
+
+Your Tasks:
+1. go to classes
+
+
+To-Do List Manager - Simple Version
+----------------------------------
+1. View tasks
+2. Add a task
+3. Remove a task
+4. Exit
+
+Choose an option (1-4): 4
+Goodbye — your tasks have been saved.
+
+pc@LAPTOP-V38R86V8 MINGW64 /c/users/pc/downloads/lab assignment 3 comp 120 (main)
+$
+
+
 
