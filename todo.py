@@ -9,6 +9,7 @@ Authors: Amir Hossein Najafi (301497935)
          Bron Banks (301391190)
          Vaancha Pandey (301540239)
 """
+# Updated version with Git commits for COMP120 Assignment 3
 
 import os
 from typing import List
