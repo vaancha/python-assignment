@@ -39,9 +39,13 @@ def add_task(tasks: List[str], task: str) -> None:
     if not task:
         print("Cannot add an empty task.")
         return
+    if len(task) > 100:
+        print("Task is too long. Please enter less than 100 characters.")
+        return
     tasks.append(task)
     save_tasks(tasks)
     print(f"Task added: {task}")
+
 
 
 def view_tasks(tasks: List[str]) -> None:
@@ -104,3 +108,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
