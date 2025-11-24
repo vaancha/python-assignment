@@ -10,7 +10,7 @@ Authors: Amir Hossein Najafi (301497935)
          Vaancha Pandey (301540239)
 """
 # Updated version with Git commits for COMP120 Assignment 3
-# This program manages tasks: add, view, remove
+
 
 import os
 from typing import List
